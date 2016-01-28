@@ -1,0 +1,248 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:300);
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*== colors & typography ==*/
+
+body {
+    background-color: #31313B;
+    color: #D8D8D8;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    color: #12CA9D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #12CA9D;
+}
+
+h4 {
+    font-size: 10px;
+}
+
+footer {
+    color: #D8D8D8;
+}
+
+footer a {
+    color: #D8D8D8;
+    text-decoration: none;
+}
+
+.actList li {
+    list-style-type: none;
+    line-height: 22px;
+}
+
+
+/*== position & padding ==*/
+
+header {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+}
+
+img {
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.workEmoji {
+    position: absolute;
+    top: 266px;
+    left: 197px;
+    height: 53px;
+    width: 53px;
+    background-color: transparent;
+}
+
+.relaxEmoji {
+    position: absolute;
+    top: 352px;
+    left: 287px;
+    height: 53px;
+    width: 53px;
+    background-color: transparent;
+}
+
+.choresEmoji {
+    position: absolute;
+    top: 445px;
+    left: 196px;
+    height: 55px;
+    width: 55px;
+    background-color: transparent;
+}
+
+.procrasEmoji {
+    position: absolute;
+    top: 352px;
+    left: 109px;
+    height: 55px;
+    width: 55px;
+    background-color: transparent;
+}
+
+nav {
+    margin-left: 173px;
+}
+
+
+footer {
+    margin-top: 30px;
+}
+
+footer #legal {
+    float:right;
+    margin-right: 40px;
+}
+
+#valid{
+    margin-left: 40px;
+}
+
+
+/*== extras ==*/
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-right:10px;
+}
+
+nav li a{
+    color:#D8D8D8;
+    text-decoration: none;
+}
+
+#valid li {
+    list-style-type: none;
+    display: inline;
+    font-size:10px;
+}
+
+
+
+/*== tool tip ==*/
+
+.workTip {
+    position: absolute;
+    margin-top: -480px;
+  margin-left: 200px;
+    background-image: url("media/bubble.png");
+    background-repeat: no-repeat;
+    width: 168px;
+    height: 141px;
+    overflow: hidden;
+}
+
+.relaxTip {
+    position: absolute;
+    margin-top: -390px;
+  margin-left: 290px;
+    background-image: url("media/bubble.png");
+    background-repeat: no-repeat;
+    width: 168px;
+    height: 141px;
+    overflow: hidden;
+}
+
+.choresTip {
+    position: absolute;
+    margin-top: -295px;
+  margin-left: 205px;
+    background-image: url("media/bubble.png");
+    background-repeat: no-repeat;
+    width: 168px;
+    height: 141px;
+    overflow: hidden;
+}
+
+.procrasTip {
+    position: absolute;
+    margin-top: -390px;
+  margin-left: 75px;
+    background-image: url("media/bubble.png");
+    background-repeat: no-repeat;
+    width: 168px;
+    height: 141px;
+    overflow: hidden;
+}
+
+.workTip h2 {
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.relaxTip h2 {
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.choresTip h2 {
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.procrasTip h2 {
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+
+/*== grid ==*/
+
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.one-whole {
+    width: 100%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.one-third {
+    width: 33%;
+}
+
+.column {
+    float: left;
+}
+
+.container {
+    width: 955px;
+    margin: auto;
+}
+
+
+/*== visibility ==*/
+
+h6 {
+    visibility: hidden;
+}
